@@ -141,11 +141,8 @@ The architecture is deliberately layered — `engine.py` never touches maps, `vi
 ---
 
 ## Roadmap
-
-- [ ] `requirements.txt` and `pyproject.toml`
 - [ ] Landsat-8/9 adapter (extend `SatelliteAdapter`)
 - [ ] Web UI front-end (replace terminal prompts)
-- [ ] Export to GeoTIFF
 - [ ] Cloud cover threshold as user parameter
 - [ ] Batch processing for multiple locations
 
