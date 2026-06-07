@@ -7,6 +7,6 @@ folium
 branca
 matplotlib
 spacy
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+en-core-web-sm @ https://huggingface.co/spacy/en_core_web_sm/resolve/main/en_core_web_sm-any-py3-none-any.whl
 dateparser
 jinja2
