@@ -1,3 +1,15 @@
+---
+title: Earth Observation Platform
+emoji: 🛰️
+colorFrom: green
+colorTo: blue
+sdk: streamlit
+sdk_version: 1.32.0
+app_file: app.py
+pinned: false
+python_version: "3.11"
+---
+
 # 🛰️ Earth Observation Engine v3.0
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
@@ -154,16 +166,17 @@ The interactive map renders live in the workspace canvas. Output HTML files are 
 
 The architecture is deliberately layered — `engine.py` never touches maps, `visualizer.py` never touches satellite data, `parser.py` knows nothing about spectral indices. Each component can be swapped or extended independently.
 
-
 ---
+
+
 
 ## Roadmap
 
-- [ ] Dataclass-based pipeline payload contracts 
+- [ ] Dataclass-based pipeline payload contracts (v3.1 refactor)
 - [ ] Interpretation layer — plain English analysis summary per result
 - [ ] Landsat-8/9 adapter (extend `SatelliteAdapter`)
 - [ ] Cloud cover threshold exposed as user parameter
-- [ ] Batch processing for multiple locations
+
 
 ---
 
