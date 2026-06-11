@@ -147,7 +147,6 @@ flood extent near Chennai after 2018-08-01 to 2018-10-01
 │   ├── location_extractor.py       # spaCy NER-based geographic entity extractor
 │   └── config/
 │       ├── intents.json            # Intent → spectral index keyword mapping
-│       ├── aliases.json            # Query normalization / shorthand expansion
 │       └── response_templates.json # UI feedback text baselines
 │
 ├── spectral_pipeline/
